@@ -1,0 +1,100 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Added styles for dark mode and animations */
+:root {
+  --background-light: rgba(255, 255, 255, 0.5);
+  --background-dark: rgba(0, 0, 0, 1);
+}
+
+.dark {
+  background-color: var(--background-dark);
+  color-scheme: dark;
+}
+
+body, html {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.purple-glow {
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.5);
+}
+
+.text-shadow-sm {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-text {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile image positioning fix */
+.object-\[center_top_-15px\] {
+  object-position: center -15px;
+}
+
+/* Keyframe for sliding down animation - slowed down */
+@keyframes slideDown {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 6px;
+  }
+}
+
+/* Modified bounce animation for slower scroll indicator */
+@keyframes slowBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-slow-bounce {
+  animation: slowBounce 3s ease-in-out infinite;
+}
