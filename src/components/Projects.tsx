@@ -68,8 +68,8 @@ const Projects = () => {
       title: "Portfolio Website",
       description: "A responsive personal portfolio website built to showcase my skills and projects in a clean, professional manner.",
       techStack: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      githubLink: "#",
-      demoLink: "#",
+      githubLink: "https://github.com/shivraj110504/Portfolio-2.0",
+      demoLink: "https://854a1d29.portfolio-2-0-eq2.pages.dev/",
       image: "https://cdn1.vectorstock.com/i/1000x1000/92/00/purple-portfolio-poster-with-colorful-brush-vector-21849200.jpg",
       direction: "left"
     },
