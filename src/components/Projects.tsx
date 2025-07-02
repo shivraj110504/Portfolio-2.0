@@ -56,6 +56,15 @@ const Projects = () => {
       status: "Currently under updation"
     },
     {
+      title: "AlumniLink – Student-Alumni Collaboration Platform",
+      description: "A full-stack platform enabling real-time doubt resolution, mentorship, resume sharing, and live chat between students and alumni.",
+      techStack: ["React", "Node", "Supabase", "Tailwind CSS"],
+      githubLink: "#",
+      demoLink: "#",
+      image: "https://alumnireach.com/wp-content/uploads/2024/06/Fundraising-Success-min.png",
+      direction: "right",
+    },
+    {
       title: "Spam Detection",
       description: "Developed a Spam Detection system using Python and machine learning to classify messages as spam or not. Deployed on Streamlit, this tool helps users identify and block unwanted messages, enhancing mobile security.",
       techStack: ["Python", "Streamlit", "Machine Learning", "NLP"],
@@ -73,16 +82,6 @@ const Projects = () => {
       image: "https://cdn1.vectorstock.com/i/1000x1000/92/00/purple-portfolio-poster-with-colorful-brush-vector-21849200.jpg",
       direction: "left"
     },
-    {
-      title: "DSA Tracker",
-      description: "An application to track progress in my 250-day DSA challenge, with metrics and achievements.",
-      techStack: ["Java", "Spring Boot", "MySQL", "React"],
-      githubLink: "#",
-      demoLink: "#",
-      image: "https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?q=80&w=2070&auto=format&fit=crop",
-      direction: "right",
-       status: "Currently under updation"
-    }
   ];
 
   return (

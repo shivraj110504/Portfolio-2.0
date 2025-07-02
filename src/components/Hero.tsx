@@ -140,7 +140,7 @@ const Hero = () => {
             >
               <div className="w-full h-full rounded-full overflow-hidden">
                 <img 
-                  src="/assets/5f2407b5-a7f1-47e3-98f2-bdbce4cb07cf.png" 
+                  src="/assets/5f2407b5-a7f1-47e3-98f2-bdbce4cb07cf.jpg" 
                   alt="Shivaraj Taware" 
                   className="rounded-full w-full h-full object-cover object-center object-[center_top_-15px]"
                 />
