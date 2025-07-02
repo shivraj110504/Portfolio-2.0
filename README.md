@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-**Deployed at**: [Shivraj Portfolio](https://854a1d29.portfolio-2-0-eq2.pages.dev)
+**Deployed at**: [Shivraj Portfolio](https://3cc6aa38.portfolio-2-0-eq2.pages.dev/)
 
 ---
 
