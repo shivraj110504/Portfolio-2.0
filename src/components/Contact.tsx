@@ -202,12 +202,12 @@ const Contact = () => {
                   {
                     icon: <Mail size={24} />,
                     title: "Email",
-                    content: "shivarajtaware7192@gmail.com"
+                    content: "tawareshivaraj7867@gmail.com"
                   },
                   {
                     icon: <Phone size={24} />,
                     title: "Phone",
-                    content: "+91 932****510"
+                    content: "+91 9322407510"
                   },
                   {
                     icon: <MapPin size={24} />,

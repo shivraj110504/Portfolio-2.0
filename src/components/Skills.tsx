@@ -44,13 +44,13 @@ const Skills = () => {
 
   const technicalSkills = [
     { name: "Java", level: 90 },
-    { name: "Python", level: 85 },
-    { name: "C++", level: 85 },
+    { name: "Python", level: 65 },
+    { name: "C++", level: 75 },
     { name: "HTML/CSS", level: 80 },
     { name: "JavaScript", level: 75 },
-    { name: "React", level: 70 },
-    { name: "Streamlit", level: 80 },
-    { name: "DSA", level: 65 },
+    { name: "React", level: 60 },
+    { name: "Streamlit", level: 60 },
+    { name: "DSA", level: 75 },
     { name: "OOP", level: 95 },
     { name: "Git", level: 75 },
     { name: "GitHub", level: 80 },

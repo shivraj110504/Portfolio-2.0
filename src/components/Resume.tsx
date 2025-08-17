@@ -5,8 +5,8 @@ import { FileText, Download } from 'lucide-react';
 import { toast } from "@/components/ui/use-toast";
 
 const Resume = () => {
-  const resumeViewUrl = "https://drive.google.com/file/d/19JO9klTgZHaZ9TKQvPY88XCdtLkNFqRG/view?usp=sharing";
-  const resumeDownloadUrl = "https://drive.google.com/file/d/19JO9klTgZHaZ9TKQvPY88XCdtLkNFqRG/view?usp=sharing";
+  const resumeViewUrl = "https://drive.google.com/file/d/14tDAK_cGIMtQ7MdtgFxo6nw2Ug1By_Ty/view?usp=sharing";
+  const resumeDownloadUrl = "https://drive.google.com/file/d/14tDAK_cGIMtQ7MdtgFxo6nw2Ug1By_Ty/view?usp=sharing";
   const resumeRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
   const [isScrollingUp, setIsScrollingUp] = useState(false);

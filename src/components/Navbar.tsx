@@ -12,7 +12,7 @@ const Navbar = () => {
     { name: 'About', href: '#about' },
     { name: 'Projects', href: '#projects' },
     { name: 'Skills', href: '#skills' },
-    { name: 'Resume', href: '#resume' },
+    // { name: 'Resume', href: '#resume' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -54,7 +54,7 @@ const Navbar = () => {
                 </a>
               ))}
               <Button variant="default" size="sm" className="purple-glow bg-portfolio-purple hover:bg-portfolio-darkPurple">
-                <a href="#contact">Let's Talk</a>
+                <a href="#resume">My Resume</a>
               </Button>
             </div>
           </div>
