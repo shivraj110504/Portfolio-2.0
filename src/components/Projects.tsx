@@ -59,10 +59,11 @@ const Projects = () => {
       title: "AlumniLink – Student-Alumni Collaboration Platform",
       description: "A full-stack platform enabling real-time doubt resolution, mentorship, resume sharing, and live chat between students and alumni.",
       techStack: ["React", "Node", "Supabase", "Tailwind CSS"],
-      githubLink: "#",
-      demoLink: "#",
+      githubLink: "https://github.com/shivraj110504/AlumniLink2.0",
+      demoLink: "https://alumni-link2-0.vercel.app/",
       image: "https://alumnireach.com/wp-content/uploads/2024/06/Fundraising-Success-min.png",
       direction: "right",
+      status: "Currently under updation"
     },
     {
       title: "Spam Detection",
@@ -78,7 +79,7 @@ const Projects = () => {
       description: "A responsive personal portfolio website built to showcase my skills and projects in a clean, professional manner.",
       techStack: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       githubLink: "https://github.com/shivraj110504/Portfolio-2.0",
-      demoLink: "https://854a1d29.portfolio-2-0-eq2.pages.dev/",
+      demoLink: "https://portfolio-2-0-eq2.pages.dev/",
       image: "https://cdn1.vectorstock.com/i/1000x1000/92/00/purple-portfolio-poster-with-colorful-brush-vector-21849200.jpg",
       direction: "left"
     },

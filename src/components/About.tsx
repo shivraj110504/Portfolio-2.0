@@ -62,9 +62,9 @@ const About = () => {
             
             <div className={`md:w-2/3 transition-all duration-700 ${isVisible ? 'opacity-100 translate-x-0' : isScrollingUp ? 'opacity-0 -translate-x-20' : 'opacity-0 translate-x-20'}`} style={{ transitionDelay: '150ms' }}>
               <p className="text-lg mb-6 text-gray-800 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-100 transition-colors duration-300">
-                I'm Shivraj Taware, an aspiring developer with a strong passion for problem-solving and software development. 
-                I've completed Object-Oriented Programming (OOP) in Java and am currently learning Data Structures and 
-                Algorithms (DSA) through a 250-day challenge to prepare for tech placements.
+                I'm Shivraj Taware, an aspiring IT Engineer with a strong passion for problem-solving and software development. 
+                I’ve built a strong foundation in Java and Object-Oriented Programming, and I’m actively sharpening my skills in Data Structures and Algorithms by solving real-world problems.
+                I enjoy creating practical solutions and continuously learning to grow as a developer.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
@@ -72,12 +72,12 @@ const About = () => {
                   {
                     icon: <Code size={24} />,
                     title: "OOP Expertise",
-                    desc: "My OOP experience in Java has equipped me with key programming concepts like classes, objects, inheritance, and polymorphism, allowing me to write clean, efficient code."
+                    desc: "My experience with Java and Object-Oriented Programming (OOP) has helped me understand core concepts like classes, objects, inheritance, and polymorphism, enabling me to write code that’s clean, efficient, and easy to maintain."
                   },
                   {
                     icon: <BookOpen size={24} />,
                     title: "Frontend Skills",
-                    desc: "I have a solid understanding of frontend technologies like HTML, CSS, and JavaScript, and I am always improving my skills through hands-on projects."
+                    desc: "I’m comfortable with frontend technologies like HTML, CSS, and JavaScript, and I love learning by building projects. Right now, I’m leveling up my web development skills with React while also focusing on growing as a Java developer."
                   },
                   {
                     icon: <Database size={24} />,

@@ -85,7 +85,7 @@ const Hero = () => {
             </div>
             <div className="mb-6">
               <p className="text-xl font-medium text-gray-900 dark:text-gray-200 text-shadow-sm backdrop-blur-sm bg-white/10 dark:bg-black/10 p-2 rounded-md hover:bg-white/20 dark:hover:bg-black/20 transition-all duration-300">
-                College Student | Aspiring Software Engineer | Proficient in JAVA, C++ & OOP | DSA Learner | Information Technology @SAOE Pune
+                IT Undergraduate @SAOE Pune | Future Software Engineer | Skilled in Java, C++ & OOP | DSA Learner 
               </p>
             </div>
             <p className="text-lg text-gray-800 dark:text-gray-300 mb-8 backdrop-blur-sm bg-white/10 dark:bg-black/10 p-2 rounded-md text-shadow-sm hover:bg-white/20 dark:hover:bg-black/20 transition-all duration-300">
@@ -150,12 +150,12 @@ const Hero = () => {
         </div>
 
         {/* Scroll indicator - updated with slower animation */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-slow-bounce hover:animate-none hover:translate-y-1 transition-all duration-300">
+        {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-slow-bounce hover:animate-none hover:translate-y-1 transition-all duration-300">
           <div className="w-1 h-10 rounded-full bg-portfolio-purple/50 relative">
             <div className="absolute w-1 h-4 bg-portfolio-purple rounded-full animate-[slideDown_3s_ease-in-out_infinite]"></div>
           </div>
           <span className="text-sm mt-2 text-gray-700 dark:text-gray-300 font-medium hover:text-portfolio-purple dark:hover:text-portfolio-purple transition-colors duration-300">Scroll Down</span>
-        </div>
+        </div> */}
       </div>
     </section>
   );
