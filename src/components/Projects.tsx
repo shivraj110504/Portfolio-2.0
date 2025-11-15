@@ -66,16 +66,16 @@ const Projects = () => {
       direction: "left",
     },
 
-    {
-      title: "AlumniLink – Student-Alumni Collaboration Platform",
-      description:"A full-stack platform enabling real-time doubt resolution, mentorship, resume sharing, and live chat between students and alumni.",
-      techStack: ["React", "Node", "Supabase", "Tailwind CSS"],
-      githubLink: "https://github.com/shivraj110504/AlumniLink2.0",
-      demoLink: "https://alumni-link2-0.vercel.app/",
-      image:"https://alumnireach.com/wp-content/uploads/2024/06/Fundraising-Success-min.png",
-      direction: "right",
-      status: "Currently under updation",
-    },
+    // {
+    //   title: "AlumniLink – Student-Alumni Collaboration Platform",
+    //   description:"A full-stack platform enabling real-time doubt resolution, mentorship, resume sharing, and live chat between students and alumni.",
+    //   techStack: ["React", "Node", "Supabase", "Tailwind CSS"],
+    //   githubLink: "https://github.com/shivraj110504/AlumniLink2.0",
+    //   demoLink: "https://alumni-link2-0.vercel.app/",
+    //   image:"https://alumnireach.com/wp-content/uploads/2024/06/Fundraising-Success-min.png",
+    //   direction: "right",
+    //   status: "Currently under updation",
+    // },
     {
       title: "Spam Detection",
       description:"Developed a Spam Detection system using Python and machine learning to classify messages as spam or not. Deployed on Streamlit, this tool helps users identify and block unwanted messages, enhancing mobile security.",
