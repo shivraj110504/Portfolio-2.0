@@ -59,10 +59,10 @@ const Projects = () => {
     {
       title: "Spectrum Dark",
       description:"A custom VS Code theme designed to enhance readability and reduce eye strain with carefully selected syntax highlighting and UI colors. Published on the VS Code Marketplace for public use.",
-      techStack: ["VS Code", "JSON", "UI/UX Design", "Color Theory"],
+      techStack: ["VS Code", "JSON", "UI/UX Design"],
       githubLink: "https://github.com/shivraj110504/Spectrum-Dark",
       demoLink:"https://marketplace.visualstudio.com/items?itemName=ShivrajTaware.spectrum-dark",
-      image:"https://raw.githubusercontent.com/shivraj110504/spectrum-dark-theme/main/screenshot.png",
+      image:"https://ankitsm08.github.io/assets/img/posts/vs-code.webp",
       direction: "left",
     },
 
