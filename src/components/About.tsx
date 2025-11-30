@@ -53,7 +53,7 @@ const About = () => {
             <div className={`md:w-1/3 transition-all duration-700 ${isVisible ? 'opacity-100 translate-x-0' : isScrollingUp ? 'opacity-0 translate-x-20' : 'opacity-0 -translate-x-20'}`}>
               <div className="rounded-lg overflow-hidden purple-glow hover:shadow-lg hover:scale-105 transition-all duration-300">
                 <img 
-                  src="/assets/5f2407b5-a7f1-47e3-98f2-bdbce4cb07cf.jpg" 
+                  src="/assets/About.png" 
                   alt="Shivaraj Taware" 
                   className="w-full h-auto object-cover object-[center_top_-15px]"
                 />
